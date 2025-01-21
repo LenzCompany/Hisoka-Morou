@@ -7,7 +7,7 @@ const limit = {
    premium: 250,
    VIP: "Infinity",
    download: {
-      free: 30000000, // use byte
+      free: 10, // use byte
       premium: 100000000, // use byte
       VIP: 1130000000, // use byte 
    }
@@ -45,7 +45,7 @@ export default {
    options: {
       public: true,
       URI: "database.json", // use mongo or file json
-      owner: ["6288292024190", "62858156631709"],
+      owner: ["6285640575421", "6285640575421"],
       pathCommand: 'commands'
    },
 
